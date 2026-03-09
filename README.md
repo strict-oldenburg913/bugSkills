@@ -2,7 +2,7 @@
 
 Convert your HackerOne resolved & triaged bug reports into reusable AI skill files.
 
-BugSkills fetches your reports via the HackerOne API, masks all sensitive data (URLs, IPs, emails, domains, program names), sends the anonymized reports to an AI model via OpenRouter for pattern extraction, and outputs structured Markdown skill files — one per vulnerability type.
+BugSkills fetches your reports via the HackerOne API, masks all sensitive data (URLs, IPs, emails, domains, program names), sends the anonymized reports to an AI model via OpenRouter for pattern extraction, and outputs structured Markdown skill files, one per vulnerability type.
 
 ## How It Works
 
@@ -25,7 +25,7 @@ Fetch reports → Mask sensitive data → AI analysis → Skill files (.md)
 ## Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/bugSkills.git
+git clone https://github.com/BehiSecc/bugSkills.git
 cd bugSkills
 
 # Install dependencies
@@ -36,22 +36,15 @@ cp .env.example .env
 # Edit .env with your keys
 ```
 
-### `.env` Configuration
-
-| Variable | Description | Example |
-|---|---|---|
-| `OPENROUTER_API_KEY` | Your OpenRouter API key | `sk-or-v1-...` |
-| `OPENROUTER_MODEL` | Model to use (provider/model format) | `anthropic/claude-sonnet-4` |
-| `H1_API_KEY` | HackerOne API credentials (identifier:token) | `your_id:your_token` |
 
 ## Usage
 
 ```bash
 # Generate skills (output to <username>-skills/)
-uv run main.py
+uv run bugskills.py
 
 # Custom output directory
-uv run main.py -o ./my-skills
+uv run bugskills.py -o ./my-skills
 ```
 
 If you interrupt with `Ctrl+C` during AI analysis, any skills generated so far will still be saved.
@@ -94,8 +87,4 @@ A `README.md` index is also generated in the output directory listing all skills
 - Emails → `[REDACTED_EMAIL]`
 - Domains → `[REDACTED_DOMAIN]`
 - Program names → `[REDACTED_PROGRAM]`
-- Your `.env` file (containing API keys) is gitignored
 
-## License
-
-MIT
